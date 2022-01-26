@@ -26,7 +26,7 @@ module.exports = {
           loader: "babel-loader",
           options: {
             ...require("prebid.js/.babelrc.js"),
-            configFile: true,
+            configFile: false,
           },
         },
       },
